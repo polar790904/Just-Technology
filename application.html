@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/jquery-3.5.1.slim.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <script src="js/jquery-3.5.0.min.js"></script>
     
     <!--icon-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -23,15 +23,11 @@
 
     <style>
 	
-	.hiden {
-		opacity:0;
-		
-	}
 
-   
     </style>
     <!-- Custom styles for this template -->
     <link href="css/offcanvas.css"rel="stylesheet">
+    <script src="js/offcanvas.js"></script>
     </head>
     
     
@@ -69,8 +65,9 @@
 </header>
 
 <section>
- <div style="background-image:url(images/banner/about.png)" class=" col-lg-12 banner"></div>
+ <div style="background-image:url(images/banner/application.jpg)" class=" col-lg-12 banner"></div>
 </section> 
+
 
 
 <main class="application text-center">
@@ -78,7 +75,21 @@
 <h1>APPLICATION</h1>
 <h5>－ BEST SOLUTION －<h5>
 
-<div class="col-md-8 offset-md-2 application_con">
+
+<!-- List group -->
+<div style="margin-top:30px" class="col-md-6 offset-md-3 col-sm-8 offset-sm-2 col-10 offset-1 text-center">
+<div class="row list-group list-group-horizontal" id="myList" role="tablist">
+    <a class="col-6  list-group-item list-group-item-action industrial active" data-toggle="list" href="#home" role="tab" id="industrial">INDUSTRIAL</a>
+    <a class="col-6  list-group-item list-group-item-action medical " data-toggle="list" href="#profile" role="tab" id="medical">MEDICAL</a>
+</div>
+</div>
+
+<!-- Tab panes -->
+<div class="tab-content">
+
+  <div class="tab-pane fade show active" id="home" role="tabpanel">
+    
+    <div class="col-md-8 offset-md-2 application_con">
    <div class="row">
          
          <!--1-->
@@ -87,8 +98,8 @@
          <div class="application_item">
          <figure class="figure">
          <div class="figure_outer">
-         <img src="images/index/application/20190927-f57f0793e8a4b9ccc61d199f826044cb.jpg" class="figure-img img-fluid rounded" alt="...">
-         <div style="background-color:rgba(51,51,51,0.8)" class="figure-caption_bg"
+         <img src="images/index/application/Pipeline Weld Inspection.jpg" class="figure-img img-fluid rounded" alt="Pipeline Weld Inspection">
+         <div style="background-color:rgba(51,51,51,0.8)" class="figure-caption_bg">
          <figcaption class="figure-caption text-center">
          <div class="figure-caption_title"><h2>Pipeline Weld Inspection</h2></div>
          </figcaption>
@@ -100,13 +111,13 @@
          </div>
          
          <!--2-->
-         <div class="col-lg-4 col-md-6 ">
+         <div class="col-lg-4 col-sm-6 ">
          <a href="#">
          <div class="application_item">
          <figure class="figure">
          <div class="figure_outer">
-         <img src="images/index/application/201911151128554310215298.jpg" class="figure-img img-fluid rounded" alt="...">
-         <div style="background-color:rgba(51,51,51,0.8)" class="figure-caption_bg"
+         <img src="images/index/application/201911151128554310215298.jpg" class="figure-img img-fluid rounded" alt="Engine Blade Inspection">
+         <div style="background-color:rgba(51,51,51,0.8)" class="figure-caption_bg">
          <figcaption class="figure-caption text-center">
          <div class="figure-caption_title"><h2>Engine Blade Inspection</h2></div>
          </figcaption>
@@ -118,13 +129,13 @@
          </div>
 
          <!--3-->
-         <div class="col-lg-4 col-md-6 ">
+         <div class="col-lg-4 col-sm-6 ">
          <a href="#">
          <div class="application_item">
          <figure class="figure">
          <div class="figure_outer">
-         <img src="images/index/application/2019258416558314851432352.jpg" class="figure-img img-fluid rounded" alt="...">
-         <div style="background-color:rgba(51,51,51,0.8)" class="figure-caption_bg"
+         <img src="images/index/application/2019258416558314851432352.jpg" class="figure-img img-fluid rounded" alt="Mold Inspection">
+         <div style="background-color:rgba(51,51,51,0.8)" class="figure-caption_bg">
          <figcaption class="figure-caption text-center">
          <div class="figure-caption_title"><h2>Mold Inspection</h2></div>
          </figcaption>
@@ -136,15 +147,15 @@
          </div>
          
          <!--4-->
-         <div class="col-lg-4 col-md-6">
+         <div class="col-lg-4 col-sm-6">
          <a href="#">
          <div class="application_item">
          <figure class="figure">
          <div class="figure_outer">
-         <img src="images/index/application/2019258416558314851432352.jpg" class="figure-img img-fluid rounded" alt="...">
-         <div style="background-color:rgba(51,51,51,0.8)" class="figure-caption_bg"
+         <img src="images/index/application/Police Storm Fortifications Check.jpg" class="figure-img img-fluid rounded" alt="Police Storm Fortifications Check">
+         <div style="background-color:rgba(51,51,51,0.8)" class="figure-caption_bg">
          <figcaption class="figure-caption text-center">
-         <div class="figure-caption_title"><h2>Mold Inspection</h2></div>
+         <div class="figure-caption_title"><h2>Police Storm Fortifications Check</h2></div>
          </figcaption>
          </div>
          </div>
@@ -154,15 +165,15 @@
          </div>
          
          <!--5-->
-         <div class="col-lg-4 col-md-6">
+         <div class="col-lg-4 col-sm-6">
          <a href="#">
          <div class="application_item">
          <figure class="figure">
          <div class="figure_outer">
-         <img src="images/index/application/20190927-f57f0793e8a4b9ccc61d199f826044cb.jpg" class="figure-img img-fluid rounded" alt="...">
-         <div style="background-color:rgba(51,51,51,0.8)" class="figure-caption_bg"
+         <img src="images/index/application/Nuclear Power Machine Units Inspection.jpg" class="figure-img img-fluid rounded" alt="Nuclear Power Machine Units Inspection">
+         <div style="background-color:rgba(51,51,51,0.8)" class="figure-caption_bg">
          <figcaption class="figure-caption text-center">
-         <div class="figure-caption_title"><h2>Pipeline Weld Inspection</h2></div>
+         <div class="figure-caption_title"><h2>Nuclear Power Machine Units Inspection</h2></div>
          </figcaption>
          </div>
          </div>
@@ -172,15 +183,15 @@
          </div>
          
          <!--6-->
-         <div class="col-lg-4 col-md-6">
+         <div class="col-lg-4 col-sm-6">
          <a href="#">
          <div class="application_item">
          <figure class="figure">
          <div class="figure_outer">
-         <img src="images/index/application/201911151128554310215298.jpg" class="figure-img img-fluid rounded" alt="...">
-         <div style="background-color:rgba(51,51,51,0.8)" class="figure-caption_bg"
+         <img src="images/index/application/Heat Exchanger Inspection.jpg" class="figure-img img-fluid rounded" alt="Heat Exchanger Inspection">
+         <div style="background-color:rgba(51,51,51,0.8)" class="figure-caption_bg">
          <figcaption class="figure-caption text-center">
-         <div class="figure-caption_title"><h2>Engine Blade Inspection</h2></div>
+         <div class="figure-caption_title"><h2>Heat Exchanger Inspection</h2></div>
          </figcaption>
          </div>
          </div>
@@ -190,15 +201,15 @@
          </div>
 
          <!--7-->
-         <div class="col-lg-4 col-md-6 hiden">
+         <div class="col-lg-4 col-sm-6 hiden">
          <a href="#">
          <div class="application_item">
          <figure class="figure">
          <div class="figure_outer">
-         <img src="images/index/application/2019258416558314851432352.jpg" class="figure-img img-fluid rounded" alt="...">
-         <div style="background-color:rgba(51,51,51,0.8)" class="figure-caption_bg"
+         <img src="images/index/application/Water Leak Detection.jpg" class="figure-img img-fluid rounded" alt="Water Leak Detection">
+         <div style="background-color:rgba(51,51,51,0.8)" class="figure-caption_bg">
          <figcaption class="figure-caption text-center">
-         <div class="figure-caption_title"><h2>Mold Inspection</h2></div>
+         <div class="figure-caption_title"><h2>Water Leak Detection</h2></div>
          </figcaption>
          </div>
          </div>
@@ -208,15 +219,15 @@
          </div>
          
          <!--8-->
-         <div class="col-lg-4 col-md-6 hiden">
+         <div class="col-lg-4 col-sm-6 hiden">
          <a href="#">
          <div class="application_item">
          <figure class="figure">
          <div class="figure_outer">
-         <img src="images/index/application/2019258416558314851432352.jpg" class="figure-img img-fluid rounded" alt="...">
-         <div style="background-color:rgba(51,51,51,0.8)" class="figure-caption_bg"
+         <img src="images/index/application/Wall Joint Internal Inspection.jpg" class="figure-img img-fluid rounded" alt="Wall Joint Internal Inspection">
+         <div style="background-color:rgba(51,51,51,0.8)" class="figure-caption_bg">
          <figcaption class="figure-caption text-center">
-         <div class="figure-caption_title"><h2>Mold Inspection</h2></div>
+         <div class="figure-caption_title"><h2>Wall Joint Internal Inspection</h2></div>
          </figcaption>
          </div>
          </div>
@@ -225,15 +236,15 @@
          </a>
          
          <!--9-->
-         </div><div class="col-lg-4 col-md-6 hiden">
+         </div><div class="col-lg-4 col-sm-6 hiden">
          <a href="#">
          <div class="application_item">
          <figure class="figure">
          <div class="figure_outer">
-         <img src="images/index/application/201911151128554310215298.jpg" class="figure-img img-fluid rounded" alt="...">
-         <div style="background-color:rgba(51,51,51,0.8)" class="figure-caption_bg"
+         <img src="images/index/application/Factory Pipeline Inspection.jpg" class="figure-img img-fluid rounded" alt="Factory Pipeline Inspection">
+         <div style="background-color:rgba(51,51,51,0.8)" class="figure-caption_bg">
          <figcaption class="figure-caption text-center">
-         <div class="figure-caption_title"><h2>Engine Blade Inspection</h2></div>
+         <div class="figure-caption_title"><h2>Factory Pipeline Inspection</h2></div>
          </figcaption>
          </div>
          </div>
@@ -243,15 +254,15 @@
          </div>
          
          <!--10-->
-         <div class="col-lg-4 col-md-6 hiden">
+         <div class="col-lg-4 col-sm-6 hiden">
          <a href="#">
          <div class="application_item">
          <figure class="figure">
          <div class="figure_outer">
-         <img src="images/index/application/2019258416558314851432352.jpg" class="figure-img img-fluid rounded" alt="...">
-         <div style="background-color:rgba(51,51,51,0.8)" class="figure-caption_bg"
+         <img src="images/index/application/Automobile Inspection Engine Number View.jpg" class="figure-img img-fluid rounded" alt="Automobile Inspection Engine Number View">
+         <div style="background-color:rgba(51,51,51,0.8)" class="figure-caption_bg">
          <figcaption class="figure-caption text-center">
-         <div class="figure-caption_title"><h2>Mold Inspection</h2></div>
+         <div class="figure-caption_title"><h2>Automobile Inspection Engine Number View</h2></div>
          </figcaption>
          </div>
          </div>
@@ -261,15 +272,15 @@
          </div>
          
          <!--11-->
-         <div class="col-lg-4 col-md-6 hiden">
+         <div class="col-lg-4 col-sm-6 hiden">
          <a href="#">
          <div class="application_item">
          <figure class="figure">
          <div class="figure_outer">
-         <img src="images/index/application/2019258416558314851432352.jpg" class="figure-img img-fluid rounded" alt="...">
-         <div style="background-color:rgba(51,51,51,0.8)" class="figure-caption_bg"
+         <img src="images/index/application/Search and Rescue.jpg" class="figure-img img-fluid rounded" alt="Search and Rescue">
+         <div style="background-color:rgba(51,51,51,0.8)" class="figure-caption_bg">
          <figcaption class="figure-caption text-center">
-         <div class="figure-caption_title"><h2>Mold Inspection</h2></div>
+         <div class="figure-caption_title"><h2>Search and Rescue</h2></div>
          </figcaption>
          </div>
          </div>
@@ -278,15 +289,15 @@
          </a>
          
          <!--12-->
-         </div><div class="col-lg-4 col-md-6 hiden">
+         </div><div class="col-lg-4 col-sm-6 hiden">
          <a href="#">
          <div class="application_item">
          <figure class="figure">
          <div class="figure_outer">
-         <img src="images/index/application/201911151128554310215298.jpg" class="figure-img img-fluid rounded" alt="...">
-         <div style="background-color:rgba(51,51,51,0.8)" class="figure-caption_bg"
+         <img src="images/index/application/Chemical Etching Solvent MRO.jpg" class="figure-img img-fluid rounded" alt="Chemical Etching Solvent MRO">
+         <div style="background-color:rgba(51,51,51,0.8)" class="figure-caption_bg">
          <figcaption class="figure-caption text-center">
-         <div class="figure-caption_title"><h2>Engine Blade Inspection</h2></div>
+         <div class="figure-caption_title"><h2>Chemical Etching Solvent MRO</h2></div>
          </figcaption>
          </div>
          </div>
@@ -294,14 +305,63 @@
          </div>
          </a>
          </div>
-
-        
-        
+         
   </div>          
 </div>
+
+  
+  </div>
+  
+  <div class="tab-pane fade" id="profile" role="tabpanel">
+  
+  <div class="col-md-8 offset-md-2 application_con">
+   <div class="row">
+         
+         <!--1-->
+         <div class="col-lg-4 col-md-6 ">
+         <a href="#">
+         <div class="application_item">
+         <figure class="figure">
+         <div class="figure_outer">
+         <img src="images/index/application/Otolaryngology.jpg" class="figure-img img-fluid rounded" alt="Otolaryngology">
+         <div style="background-color: rgba(51,204,255,0.6)" class="figure-caption_bg">
+         <figcaption class="figure-caption text-center">
+         <div class="figure-caption_title"><h2>Otolaryngology</h2></div>
+         </figcaption>
+         </div>
+         </div>
+         </figure>
+         </div>
+         </a>
+         </div>
+         
+         <!--2-->
+         <div class="col-lg-4 col-sm-6 ">
+         <a href="#">
+         <div class="application_item">
+         <figure class="figure">
+         <div class="figure_outer">
+         <img src="images/index/application/Veterinary Medicine.jpg" class="figure-img img-fluid rounded" alt="Veterinary Medicine">
+         <div style="background-color: rgba(51,204,255,0.6)" class="figure-caption_bg">
+         <figcaption class="figure-caption text-center">
+         <div class="figure-caption_title"><h2>Veterinary Medicine</h2></div>
+         </figcaption>
+         </div>
+         </div>
+         </figure>
+         </div>
+         </a>
+         </div>
+         
+  </div>          
+</div>
+  
+  
+  </div>
+  
+</div>
+
 </main>
-
-
 
 
 <footer class="footer" role="contentinfo">
@@ -342,14 +402,12 @@
   </div>
 </footer>
 
-<script>
-$(function () {
-  'use strict'
-
-  $('[data-toggle="offcanvas"]').on('click', function () {
-    $('.offcanvas-collapse').toggleClass('open')
-  })
-})</script>
+<footer style="background-color:#FFF" class="footer-m fixed-bottom text-center" role="contentinfo">
+    <div class="footer-m_bottom row">
+      <a class="col-6 footer-m_btn" href="contact.html" role="button"><i style="padding-right:5px" class="fa fa-question-circle" aria-hidden="true"></i>INQUIRY</a>
+      <a class="col-6 footer-m_btn" href="contact.html" role="button"><i style="padding-right:5px" class="fa fa-envelope" aria-hidden="true"></i>CONTACT</a>
+    </div>
+</footer>
 
 <script>
 $(document).ready(function() {
@@ -376,5 +434,31 @@ $(document).ready(function() {
     
 });
 </script>
+
+<script>
+$('#myList a').on('click', function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+</script>
+
+<script>
+$(document).ready(function(){
+  $(".medical").click(function(){
+    $("#industrial").css({"display":"none"});
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $(".figure_outer img").hover(function(){
+    $(this).css({"opacity":"0.5"});
+  },function(){
+	  $(this).css({"opacity":"1"});
+  });
+});
+</script>
+
 </body>
 </html>

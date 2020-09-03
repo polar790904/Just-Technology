@@ -41,11 +41,11 @@ body {
 }
 
 #nav-link {
+  font-family: 'Titillium Web', sans-serif;
   padding-top: .75rem;
   padding-bottom: .75rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  font-family: 'Titillium Web', sans-serif;
   font-weight: 600;
   letter-spacing:1px;
   font-size: 1rem;
@@ -131,7 +131,7 @@ body {
 @media (max-width: 991.98px) {
   .offcanvas-collapse {
     position: fixed;
-    top: 85px; /* Height of navbar */
+    top: 80px; /* Height of navbar */
     bottom: 0;
     left: 100%;
     width: 100%;
