@@ -129,6 +129,10 @@ body {
 	padding:15px;
 	}
 @media (max-width: 991.98px) {
+  .navbar-brand img {
+	  width:80%;
+	  text-align:left
+	  }
   .offcanvas-collapse {
     position: fixed;
     top: 80px; /* Height of navbar */

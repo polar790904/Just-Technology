@@ -313,6 +313,10 @@ p {
 		background-color:#007bff;
 		color:#FFF;
 		}
+	.gap {
+		margin-top:200px;
+		margin-bottom:120px;
+		}
    
 
 @media screen and (max-width:1440px){
