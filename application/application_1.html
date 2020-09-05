@@ -17,14 +17,47 @@
     <!--icon-->
     <link rel="stylesheet" href="../css/font-awesome.min.css">
     <!--icon-->
+    
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="../css/slick.css">
+    <link rel="stylesheet" type="text/css" href="../css/slick-theme.css">
+    <script src="../js/slick.js" type="text/javascript" charset="utf-8"></script>
 
     
     <link rel="stylesheet" href="../css/style.css">
 
-    <style>
-	.gap img {
-		width:100%
+    <style>	
+ 
+    .slider {
+        width: 100%;
+    }
+	.slider:after {
+		border:none
+    }
+	
+	.slider img {
+		padding:5px;
+		border:none;
 		}
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+	  font-size:32px;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: .5;
+    }
+    .slick-current {
+      opacity: 1;
+    }	
 	    
     </style>
     <!-- Custom styles for this template -->
@@ -67,22 +100,37 @@
 </header>
 
 
+<div class="center slider">
+      <img src="image/PICT7394.JPG">
+      <img src="image/PICT7390.JPG">
+      <img src="image/PICT7395.JPG">
+</div>
+
+<script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".center").slick({
+        centerMode:true,
+        centerPadding: '25%',
+        slidesToShow: 1,
+        slidesToScroll: 1,
+		autoplay : true,
+        autoplaySpeed: 4000,  
+        arrows: true,
+      });
+    });
+</script>
+
 
 <main>
-<div class="col-md-8 offset-md-2 gap"</div>
+<div class="col-md-8 offset-md-2 application_gap"</div>
 
-<h4 class="mt-1 mb-2 text-left">Pipeline Weld Inspection</h4>
-<hr class="mb-5">
-
+<h4 class="mt-1 mb-5 text-left">Pipeline Weld Inspection</h4>
 
 <p>
-Ø14mm and Ø20mm pipe inspection cameras(plumbing endoscope cameras).<br><br>
-
-We aim to provide the best inspection cameras for plumbers, and welcome any OEM/ODM projects. <br><br>
-Should you be interested, please feel free to contact us.<br>
+pipelines often use different chemical products. The pipelines must be cleaned for each batch of replacement to prevent residual chemicals from being left in the pipeline. <br><br>An endoscope can be used to check the interior and whether there is corrosion or cracks.
 </p>
 
-<a href="../news.html" class="btn btn-secondary btn-md mt-3 " role="button" aria-pressed="true"><i class="fa fa-angle-left mr-2" aria-hidden="true"></i>BACK</a>
+<a href="../application.html" class="btn btn-secondary btn-md mt-3 " role="button" aria-pressed="true"><i class="fa fa-angle-left mr-2" aria-hidden="true"></i>BACK</a>
 
 </main>
 
